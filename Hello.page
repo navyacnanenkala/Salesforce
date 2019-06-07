@@ -1,0 +1,6 @@
+<apex:page standardController="Account" tabStyle="Opportunity">
+    <apex:pageBlock title="Hello {!$User.FirstName}!"> 
+        HELLO {!$User.FirstName} {!$User.LastName}...!
+        You are viewing the {!account.name} account.
+    </apex:pageBlock>
+</apex:page>
